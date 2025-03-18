@@ -1,5 +1,4 @@
 # Java_Selenium
-Here’s a structured study plan to learn Selenium with Java, focusing only on essential Java concepts for web automation:  
 
 ### **Week 1: Java Fundamentals for Selenium**  
 - **Day 1-2**: Java Basics  
@@ -80,5 +79,3 @@ Here’s a structured study plan to learn Selenium with Java, focusing only on e
   - Integrating POM, TestNG, and Data-Driven Testing  
 
 - **Day 31**: Running Framework on CI/CD (Jenkins Basics)  
-
-This plan ensures you focus on the most relevant Java and Selenium concepts for web automation. Let me know if you want any modifications!
