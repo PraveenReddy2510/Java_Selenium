@@ -1,0 +1,38 @@
+<html>
+  <head>
+	<script type="text/javascript">
+	  function display(luckyNumber) {
+		var firstNameLength = firstName.value.length;
+		var shoeSizeValue = shoeSize.value;
+		var luckyNumber = firstNameLength * shoeSizeValue;
+		alert(luckyNumber);
+	  }
+	</script>
+  </head>
+  <body>
+  <form action="" method="get" name="myForm" id="myForm">
+  <table width="1400" border="1">
+	<tr>
+	  <td>First Name:</td>
+	  <td><input name="firstName" type="text" id="firstName"/></td>
+	</tr>
+	<tr>
+	  <td>Gender:</td>
+	  <td><input name="gender" type="text" id="gender"/></td>
+	</tr>
+	<tr>
+	  <td>Shoe Size:</td>
+	  <td><input name="shoeSize" type="text" id="shoeSize"/></td>
+	</tr>
+	<tr>
+	  <td><input type="button" onclick="display(luckyNumber.value)" value="Calculate Lucky Number" /></td>
+	  <td> </td>
+	</tr>
+	<tr>
+	  <td>Lucky Number:</td>
+	  <td><input name="luckyNumber" type="text" id="luckyNumber"/></td>
+	</tr>
+  </table>
+  </form>
+  </body>
+</html>
